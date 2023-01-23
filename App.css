@@ -1,0 +1,45 @@
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.movie-app {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.container-fluid{
+  background-color: black;
+  color: aliceblue;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.movie-list-heading {
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+}
+
+
+.search-bar{
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  width: 15rem;
+  height: 2.5rem;
+  margin-left: 2.2rem;
+}
+
+
+.movie-pic {
+  margin-right: -75rem;
+  position: relative;
+  transition: transform 0.1s;
+  margin-left: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.movie-pic:hover {
+  cursor: pointer;
+  transform: scale(1.0019);
+}
+
